@@ -1,5 +1,5 @@
 body{
-    background-image:url("../images/day1/railway-station.jpg");
+    background-image:url("../../images/day1/railway-station.jpg");
     background-size:cover;
     font-weight:bold;
     text-align:center;
@@ -19,9 +19,10 @@ h2{
 button{
     background-color:rgb(149, 150, 136);
     border:none;
-    border-radius:100px;;
+    border-radius:150px;
     padding:25 10 ;
     color:rgb(227, 215, 164);
     font-weight:bold;
     box-shadow: 0 0 30px rgba(255, 245, 180, 1);
+    margin:10px;
 }
