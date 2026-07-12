@@ -6,7 +6,9 @@ input{
     font-size:16px;
     margin:10px;
     box-sizing:border-box;
+    outline:none;
 }
+
 button{
     margin:10px;
     color:white;
@@ -15,4 +17,16 @@ button{
     padding:6px 15px;
     border-radius:8px;
 
+}
+ul{
+    list-style:none;
+    padding-left:0px;
+    color:green
+
+}
+li{
+    margin-top:5px;
+}
+li a{
+    color:rgb(92, 146, 12);
 }
