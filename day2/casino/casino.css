@@ -1,0 +1,34 @@
+body{
+    justify-content:center;
+    text-align:center;
+    background-image:url("/../images/day2/grass.avif");
+    color:white;
+    margin:200px;
+
+}
+h1{
+    color:yellow;
+    font-size:100px;
+}
+p{
+    font-size:30px;
+}
+#msgqs{
+    font-style:italic
+}
+#result{
+    margin:20px;
+}
+button{
+    color:rgb(21, 154, 52);
+    background-color:rgb(218, 218, 44);
+    border:none;
+    height:40px;
+    width:100px;
+    margin:10px;
+    font-weight:bold;
+    border-radius:5px;
+
+
+
+}
