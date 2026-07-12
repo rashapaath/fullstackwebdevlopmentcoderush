@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scorecard.css">
+    </head>
+    <body>
+        <div class="mainbody">
+            <div class="inner home">
+                <h1 class="heading">HOME</h1>
+                <div id="numelthome" class="num">12</div>
+                <div class="incr">
+                    <button id="add1" onclick="add('numelthome',1)">+1</button>
+                    <button id="add2" onclick="add('numelthome',2)">+2</button>
+                    <button id="add3" onclick="add('numelthome',3)">+3</button>
+                </div>
+                <button class="reset" id="numelthome" onclick="reset('numelthome')">RESET</button>
+            </div>
+            <div class="inner guest">
+                <h1 class="heading">GUEST</h1>
+                <div id="numeltguest" class="num">0</div>
+                <div class="incr">
+                    <button id="add1" onclick="add('numeltguest',1)">+1</button>
+                    <button id="add2" onclick="add('numeltguest',2)">+2</button>
+                    <button id="add3" onclick="add('numeltguest',3)">+3</button>
+                </div>
+                <button class="reset" id="numeltguest" onclick="reset('numeltguest')">RESET</button>
+            </div>
+        </div>
+        
+        <script src="scorecard.js"></script>
+
+    </body>
+</html>

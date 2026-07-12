@@ -1,0 +1,43 @@
+@font-face{
+    font-family:"timering";
+    src:url("fonts/dig7.ttf") format("truetype");
+}
+
+.mainbody{
+    display : flex;
+    justify-content:space-around;
+    background-color:#202040;
+    color:white;
+    padding:50px 20px;
+}
+.inner{
+    gap:3px;
+}
+.num{
+    background-color:black;
+    height:100px;
+    color:red;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    margin:10px 0px;
+    font-family:"timering";
+    font-size:100px;
+    ;
+}
+button{
+    background-color:#202040;
+    color:rgb(171, 190, 248);
+    font-family:"timering";
+    border:1px solid rgb(123, 170, 226);
+    padding:9px;
+    margin:2px;
+    border-radius:5px;
+}
+.reset{
+    background-color:black;
+    color:rgb(133, 202, 30);
+    border:none;
+    padding:10px 45px;
+    font-size:20px;
+}
